@@ -1,6 +1,5 @@
 install:
 	pip install --upgrade pipenv &&\
-		pipenv shell
 		pipenv install
 lint:
 	#lint using pylint
