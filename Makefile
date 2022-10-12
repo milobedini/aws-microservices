@@ -1,5 +1,6 @@
 install:
-	#install commands
+	pip install --upgrade pipenv &&\
+		pipenv install
 lint:
 	#flake8 or pylint or black
 test:
