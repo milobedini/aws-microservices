@@ -1,3 +1,4 @@
+#!/bin/bash
 #!/usr/bin/env python
 
 # Above line is to tell file to run as a script.
