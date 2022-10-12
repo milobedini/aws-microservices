@@ -1,7 +1,7 @@
 install:
 	pip install --upgrade pipenv &&\
-		pipenv install
 		pipenv shell
+		pipenv install
 lint:
 	#lint using pylint
 	pylint --disable=R,C *.py mylib/*.py
